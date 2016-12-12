@@ -1,6 +1,6 @@
 Produced by:
-DEEPRAJ CHANDRA
-Ravi S. Hegde
+Developed by: DEEPRAJ CHANDRA
+Project Under: Prof. Ravi S. Hegde
 
 SEPARABLE FILTER
 In CUDA, the ready made implementation of the separable filter has a disadvantage that it cannot process beyond the kernel size 16. The reason behind that is the kernel configuration for the two sub-filters called row filter and column filter.
