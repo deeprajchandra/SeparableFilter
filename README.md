@@ -2,6 +2,8 @@ Produced by:
 Developed by: DEEPRAJ CHANDRA
 Project Under: Prof. Ravi S. Hegde
 
+Title: "World's first GPU based separable filter with kernel size more than 16"
+
 SEPARABLE FILTER
 In CUDA, the ready made implementation of the separable filter has a disadvantage that it cannot process beyond the kernel size 16. The reason behind that is the kernel configuration for the two sub-filters called row filter and column filter.
 Both of these filters are implemented for various types of BORDERS. And both of the sub filter have a unique kernel configuration. 
